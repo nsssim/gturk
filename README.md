@@ -39,14 +39,9 @@ The project includes a comprehensive `.gitignore` file that excludes:
 
 Check out the demo video to see the platform in action:
 
-```html
-<video width="100%" controls>
-  <source src="gturk.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
+[![Project Demo Video](https://img.youtube.com/vi/f2NbIlWPk-0/0.jpg)](https://www.youtube.com/watch?v=f2NbIlWPk-0)
 
-> **Note:** The video will play directly in GitHub when viewing the README, or you can download and play the `gturk.mp4` file locally.
+> **Note:** Click the image above to watch the demo video on YouTube.
 
 
 ## 📦 Project Structure
