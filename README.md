@@ -35,6 +35,20 @@ The project includes a comprehensive `.gitignore` file that excludes:
 - Build outputs and test files
 - Database files and local development artifacts
 
+## 🎥 Project Demo Video
+
+Check out the demo video to see the platform in action:
+
+```html
+<video width="100%" controls>
+  <source src="gturk.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
+
+> **Note:** The video will play directly in GitHub when viewing the README, or you can download and play the `gturk.mp4` file locally.
+
+
 ## 📦 Project Structure
 
 ```
