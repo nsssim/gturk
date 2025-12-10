@@ -1,0 +1,254 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "user",
+      "purchasedCourses": []
+    },
+    {
+      "id": "user2",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "user",
+      "purchasedCourses": [
+        "math101"
+      ]
+    },
+    {
+      "id": "user3",
+      "name": "Test User",
+      "email": "testuser@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "user",
+      "purchasedCourses": []
+    },
+    {
+      "id": "user4",
+      "name": "Test Instructor",
+      "email": "testinstructor@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "user",
+      "purchasedCourses": []
+    },
+    {
+      "id": "student1",
+      "name": "Nesim Baci",
+      "email": "student1@example.com",
+      "password": "$2a$10$qqhf/d4vfjH/v4T3.OsMe.MpAMAuODEycnI7JCZ66r8zb88Imxyqe",
+      "role": "user",
+      "purchasedCourses": [
+        "math101",
+        "physics101"
+      ]
+    },
+    {
+      "id": "student2",
+      "name": "Student Two",
+      "email": "student2@example.com",
+      "password": "$2a$10$qqhf/d4vfjH/v4T3.OsMe.MpAMAuODEycnI7JCZ66r8zb88Imxyqe",
+      "role": "user",
+      "purchasedCourses": [
+        "math101"
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "id": "instructor1",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "Mathematics",
+      "availability": [
+        "Mon 9-12",
+        "Wed 14-17"
+      ],
+      "students": []
+    },
+    {
+      "id": "instructor2",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "Physics",
+      "availability": [
+        "Tue 10-15",
+        "Thu 13-16"
+      ],
+      "students": []
+    },
+    {
+      "id": "instructor3",
+      "name": "Alice Chen",
+      "email": "alice@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "Mathematics",
+      "availability": [
+        "Mon 10-12",
+        "Mon 14-16",
+        "Tue 9-11",
+        "Tue 13-15",
+        "Wed 10-12",
+        "Wed 15-17",
+        "Thu 9-11",
+        "Thu 14-16",
+        "Fri 10-12",
+        "Fri 14-16",
+        "Sat 10-12"
+      ],
+      "students": []
+    },
+    {
+      "id": "instructor4",
+      "name": "Michael Wilson",
+      "email": "michael@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "Computer Science",
+      "availability": [
+        "Mon 13-15",
+        "Tue 10-12",
+        "Wed 14-16",
+        "Thu 9-11",
+        "Fri 13-15"
+      ],
+      "students": []
+    },
+    {
+      "id": "instructor5",
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "English",
+      "availability": [
+        "Mon 15-17",
+        "Tue 14-16",
+        "Wed 10-12",
+        "Thu 13-15",
+        "Fri 11-13"
+      ],
+      "students": []
+    },
+    {
+      "id": "instructor6",
+      "name": "David Brown",
+      "email": "david@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "instructor",
+      "subject": "Chemistry",
+      "availability": [
+        "Mon 11-13",
+        "Tue 15-17",
+        "Wed 13-15",
+        "Thu 10-12",
+        "Fri 14-16"
+      ],
+      "students": []
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "admin"
+    },
+    {
+      "id": "admin2",
+      "name": "Test Admin",
+      "email": "testadmin@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "admin"
+    },
+    {
+      "id": "admin2",
+      "name": "Test Admin",
+      "email": "testadmin@example.com",
+      "password": "$2a$10$s9B/ShxIA2EdeQ/WDZ3.dODstxCKWPEx2Cqu7pHnwURiX.i0cWjiK",
+      "role": "admin"
+    }
+  ],
+  "courses": [
+    {
+      "id": "math101",
+      "title": "Introduction to Mathematics",
+      "description": "Basic math concepts for beginners",
+      "instructor": "instructor1",
+      "price": 49.99,
+      "students": [
+        "user2",
+        "student2",
+        "student1"
+      ]
+    },
+    {
+      "id": "physics101",
+      "title": "Basic Physics",
+      "description": "Fundamental physics principles",
+      "instructor": "instructor2",
+      "price": 59.99,
+      "students": [
+        "student1"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson1",
+      "userId": "user2",
+      "instructorId": "instructor1",
+      "subject": "Mathematics",
+      "time": "Mon 10:00",
+      "status": "confirmed"
+    },
+    {
+      "id": "lesson2",
+      "userId": "student1",
+      "instructorId": "instructor3",
+      "subject": "Mathematics",
+      "time": "Tue Tue",
+      "status": "confirmed"
+    },
+    {
+      "id": "lesson3",
+      "userId": "student1",
+      "instructorId": "instructor4",
+      "subject": "Computer Science",
+      "time": "Thu Thu",
+      "status": "pending"
+    },
+    {
+      "id": "lesson4",
+      "userId": "student1",
+      "instructorId": "instructor5",
+      "subject": "English",
+      "time": "Tue Tue",
+      "status": "pending"
+    },
+    {
+      "id": "lesson5",
+      "userId": "student1",
+      "instructorId": "instructor2",
+      "subject": "Physics",
+      "time": "Tue Tue",
+      "status": "pending"
+    },
+    {
+      "id": "lesson6",
+      "userId": "student1",
+      "instructorId": "instructor3",
+      "subject": "Mathematics",
+      "time": "Wed Wed",
+      "status": "confirmed"
+    }
+  ]
+}
